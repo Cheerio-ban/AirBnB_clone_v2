@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """Initial flask app"""
-from flask import flask
+from flask import Flask
 
 app = Flask(__name__)
 
