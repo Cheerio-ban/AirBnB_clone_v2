@@ -2,7 +2,7 @@
 # Serves web Content
 
 sudo apt-get update
-sudo apt-get install -y nginx
+sudo apt-get -y install nginx
 mkdir -p /data/web_static/shared/
 mkdir -p /data/web_static/releases/test/
 echo "Hello, World!" > /data/web_static/releases/test/index.html
