@@ -6,7 +6,7 @@ sudo apt-get install -y nginx
 mkdir -p /data/web_static/shared/
 mkdir -p /data/web_static/releases/test/
 echo "Hello, World!" > /data/web_static/releases/test/index.html
-ln -sf /data/web_static/current /data/web_static/releases/test/
+ln -sf /data/web_static/releases/test/ /data/web_static/current
 
 sudo chown -R ubuntu /data/
 sudo chgrp -R ubuntu /data/
