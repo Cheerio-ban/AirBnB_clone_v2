@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Serves web Content
 
 sudo apt-get update
