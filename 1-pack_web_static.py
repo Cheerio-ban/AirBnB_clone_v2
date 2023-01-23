@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """
 A python fabric script that generates an archive
 from the web static folder using targz
