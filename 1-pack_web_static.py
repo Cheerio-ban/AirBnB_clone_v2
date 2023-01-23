@@ -21,8 +21,8 @@ def do_pack():
     if not path.isdir("versions"):
         if local("mkdir versions").failed:
             return None
-    crt_archive = "cd web_static && tar -czvf ../{} \
-            web_static && cd -".format(archive_dir)
+    crt_archive = "cd web_static && tar -cvzf ../{} . \
+            && cd -".format(archive_dir)
     if local(crt_archive).succeeded:
         return archive_dir
     return None
